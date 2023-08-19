@@ -8,6 +8,6 @@ of libnss_dns.so shared library responsible for DNS resolving.<br>
 This utility is a pure static binary workaround.
 
 # Usage
-    get                                    # URL via STDIN goes to STDOUT
-    get https://github.com                 # URL via  ARG  goes to STDOUT
-    get https://github.com > index.html    # URL via  ARG  goes to file 'index.html'
+    get                                    # get URL via STDIN output to STDOUT
+    get https://github.com                 # get URL via  ARG  output to STDOUT
+    get https://github.com > index.html    # get URL via  ARG  output to file 'index.html'
